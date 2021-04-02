@@ -1,0 +1,19 @@
+{
+  "name": "zhanglei/algorithm",
+  "description": "learn algorithm ",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "leizhang",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+}
