@@ -40,4 +40,10 @@ class Node
     {
         $this->data = $data;
     }
+
+    public function __clone()
+    {
+        $this->prv  = null;
+        $this->next = null;
+    }
 }

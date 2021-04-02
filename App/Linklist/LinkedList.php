@@ -86,7 +86,7 @@ class LinkedList
      *
      * @author zhanglei@huikeyun.com
      */
-    public function getNode(int $index): ?Node
+    protected function getNode(int $index): ?Node
     {
         //位置异常
         if ($index > $this->length || $index <= 0) {
@@ -199,6 +199,18 @@ class LinkedList
         return $this->length;
     }
 
+
+    public function union(LinkedList $linkedList)
+    {
+
+        for ($i = 1; $i <= $linkedList->listLength(); $i++) {
+            $node = $linkedList->getNode($i);
+            if (!$this->locateNode($node)) {
+                $this->listInsert($this->length + 1, $node);
+            }
+        }
+
+    }
 }
 
 
