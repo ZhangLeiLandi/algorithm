@@ -2,6 +2,8 @@
 
 namespace App\Tree;
 
+use App\Queue\LoopQueue;
+
 /**
  * Class Tree
  *
@@ -12,6 +14,8 @@ namespace App\Tree;
 class Tree
 {
 
+
+    protected ?LoopQueue  $queue;
 
     public function initTree(array &$data): ?TreeNode
     {
@@ -86,16 +90,39 @@ class Tree
         echo sprintf("%10d \r\n", $node->getData());
     }
 
+    public function initQueue()
+    {
+        $this->queue = new LoopQueue(10);
+    }
+
     /**
      * 广度优先算法
      * gdErgodic
      *
      * @param TreeNode|null $node
      *
+     * @throws \Exception
      * @author zhanglei@huikeyun.com
      */
     public function gdErgodic(?TreeNode $node)
     {
+        if ($node === null) {
+            return;
+        }
 
+        $this->queue->enQueue($node);
+
+        while ($this->queue->lenght()) {
+            /** @var TreeNode $node */
+            $node = $this->queue->deQueue();
+            echo sprintf("%10d \r\n", $node->getData());
+            if ($node->leftChild != null) {
+                $this->queue->enQueue($node->leftChild);
+            }
+            if ($node->rightChild != null) {
+                $this->queue->enQueue($node->rightChild);
+            }
+
+        }
     }
 }

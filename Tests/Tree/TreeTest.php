@@ -5,8 +5,9 @@
  * @author  zhanglei <zhanglei@huikeyun.com>
  */
 
-namespace App\Tree;
+namespace Test\Tree;
 
+use App\Tree\Tree;
 use PHPUnit\Framework\TestCase;
 
 class TreeTest extends TestCase
@@ -25,6 +26,10 @@ class TreeTest extends TestCase
         $tree->inErgodic($treeNode);
         echo "后续遍历 ===>>> \r\n";
         $tree->afterErgodic($treeNode);
+        echo "广度遍历 ===>>> \r\n";
+        $tree->initQueue();
+        $tree->gdErgodic($treeNode);
 
     }
+
 }

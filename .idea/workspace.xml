@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b373cea5-4453-4819-9ac7-263e7c38dc5f" name="Default Changelist" comment="增加链表合并功能">
-      <change afterPath="$PROJECT_DIR$/App/Linklist/GFLinkedList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Linklist/GFNode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Queue/LoopQueue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Tree/Tree.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Tree/TreeNode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoopQueueTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Linklist/GFLinkedListTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TreeTest.php" afterDir="false" />
+    <list default="true" id="b373cea5-4453-4819-9ac7-263e7c38dc5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Queue/LoopQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Queue/LoopQueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Tree/Tree.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Tree/Tree.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Linklist/GFLinkedListTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Linklist/GFLinkedListTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tree/TreeTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -102,12 +88,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests/Tree" />
+      <recent name="$PROJECT_DIR$/Tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/App/linklist" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.TreeTest.testInitTree">
+  <component name="RunManager" selected="PHPUnit.TreeTest.testInitTree (1)">
     <configuration name="GFLLinkedListTest.testGFLinkedList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -121,12 +111,17 @@
       <TestRunner class="App\Queue\LoopQueueTest" file="$PROJECT_DIR$/LoopQueueTest.php" method="testQueue" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="TreeTest.testInitTree (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Test\Tree\TreeTest" file="$PROJECT_DIR$/Tests/Tree/TreeTest.php" method="testInitTree" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="TreeTest.testInitTree" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tree\TreeTest" file="$PROJECT_DIR$/TreeTest.php" method="testInitTree" scope="Method" />
+      <TestRunner class="App\Tree\TreeTest" file="$PROJECT_DIR$/Tests/Tree/TreeTest.php" method="testInitTree" scope="Method" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TreeTest.testInitTree (1)" />
         <item itemvalue="PHPUnit.TreeTest.testInitTree" />
         <item itemvalue="PHPUnit.LoopQueueTest.testQueue" />
         <item itemvalue="PHPUnit.GFLLinkedListTest.testGFLinkedList" />
@@ -141,7 +136,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617343501215</updated>
-      <workItem from="1617343502542" duration="13469000" />
+      <workItem from="1617343502542" duration="13894000" />
+      <workItem from="1617700333874" duration="1785000" />
     </task>
     <task id="LOCAL-00001" summary="增加链表合并功能">
       <created>1617345792166</created>
@@ -157,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617673093476</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="循环队列和数">
+      <created>1617689970604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617689970604</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +168,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加链表合并功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加链表合并功能" />
+    <MESSAGE value="循环队列和数" />
+    <option name="LAST_COMMIT_MESSAGE" value="循环队列和数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="340" key="#Custom_Plugin_Repositories" timestamp="1617346525864">
@@ -180,10 +184,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="534" y="18" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617687094408" />
-    <state x="297" y="26" key="CommitChangelistDialog2" timestamp="1617686939942">
+    <state x="297" y="26" key="CommitChangelistDialog2" timestamp="1617689970413">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="26" key="CommitChangelistDialog2/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617686939942" />
+    <state x="297" y="26" key="CommitChangelistDialog2/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689970413" />
     <state x="-1526" y="456" key="ComposerInitDialogKey" timestamp="1617343516031">
       <screen x="-2560" y="-183" width="2560" height="1440" />
     </state>
@@ -196,22 +200,22 @@
       <screen x="-2560" y="-160" width="2560" height="1417" />
     </state>
     <state x="-1500" y="249" key="Github.UntrackedFilesDialog/0.23.1440.808/-2560.-160.2560.1417@-2560.-160.2560.1417" timestamp="1617343894364" />
-    <state width="1398" height="288" key="GridCell.Tab.0.bottom" timestamp="1617689852496">
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom" timestamp="1617702464247">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="288" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689852496" />
-    <state width="1398" height="288" key="GridCell.Tab.0.center" timestamp="1617689852494">
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617702464247" />
+    <state width="1398" height="340" key="GridCell.Tab.0.center" timestamp="1617702464245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="288" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689852494" />
-    <state width="1398" height="288" key="GridCell.Tab.0.left" timestamp="1617689852493">
+    <state width="1398" height="340" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617702464245" />
+    <state width="1398" height="340" key="GridCell.Tab.0.left" timestamp="1617702464244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="288" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689852493" />
-    <state width="1398" height="288" key="GridCell.Tab.0.right" timestamp="1617689852495">
+    <state width="1398" height="340" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617702464244" />
+    <state width="1398" height="340" key="GridCell.Tab.0.right" timestamp="1617702464246">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="288" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689852495" />
+    <state width="1398" height="340" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617702464246" />
     <state x="470" y="183" key="NewPhpClassDialog" timestamp="1617687232836">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -224,10 +228,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617346528001" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1617673095728">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1617689972037">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617673095728" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689972037" />
     <state x="434" y="95" width="550" height="538" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1617687717115">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

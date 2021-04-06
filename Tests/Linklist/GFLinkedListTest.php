@@ -29,4 +29,5 @@ class GFLinkedListTest extends TestCase
         $link->insert(100, 3);
         $link->output();
     }
+
 }
