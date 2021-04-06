@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b373cea5-4453-4819-9ac7-263e7c38dc5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Arr/Arr.php" afterDir="false" />
+    <list default="true" id="b373cea5-4453-4819-9ac7-263e7c38dc5f" name="Default Changelist" comment="增加链表合并功能">
+      <change afterPath="$PROJECT_DIR$/App/Linklist/GFLinkedList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Linklist/GFNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Queue/LoopQueue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Tree/Tree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Tree/TreeNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoopQueueTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Linklist/GFLinkedListTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +44,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qbLmKyzLbsyac1kqWeXxdzcdbJ" />
@@ -41,6 +93,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -54,6 +107,32 @@
       <recent name="$PROJECT_DIR$/App/linklist" />
     </key>
   </component>
+  <component name="RunManager" selected="PHPUnit.TreeTest.testInitTree">
+    <configuration name="GFLLinkedListTest.testGFLinkedList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="Test\Linklist\GFLinkedListTest" file="$PROJECT_DIR$/Tests/Linklist/GFLinkedListTest.php" method="testGFLinkedList" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LoopQueueTest.testQueue" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Queue\LoopQueueTest" file="$PROJECT_DIR$/LoopQueueTest.php" method="testQueue" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TreeTest.testInitTree" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tree\TreeTest" file="$PROJECT_DIR$/TreeTest.php" method="testInitTree" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.TreeTest.testInitTree" />
+        <item itemvalue="PHPUnit.LoopQueueTest.testQueue" />
+        <item itemvalue="PHPUnit.GFLLinkedListTest.testGFLinkedList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617343501215</updated>
-      <workItem from="1617343502542" duration="5214000" />
+      <workItem from="1617343502542" duration="13469000" />
     </task>
     <task id="LOCAL-00001" summary="增加链表合并功能">
       <created>1617345792166</created>
@@ -71,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617345792166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加链表合并功能">
+      <created>1617673093476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617673093476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,10 +172,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="626" y="340" key="#Custom_Plugin_Repositories/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617346525864" />
-    <state x="297" y="26" key="CommitChangelistDialog2" timestamp="1617345791952">
+    <state x="487" y="99" key="#PHP" timestamp="1617684466612">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="26" key="CommitChangelistDialog2/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617345791952" />
+    <state x="487" y="99" key="#PHP/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617684466612" />
+    <state x="534" y="18" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617687094408">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="534" y="18" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617687094408" />
+    <state x="297" y="26" key="CommitChangelistDialog2" timestamp="1617686939942">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="26" key="CommitChangelistDialog2/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617686939942" />
     <state x="-1526" y="456" key="ComposerInitDialogKey" timestamp="1617343516031">
       <screen x="-2560" y="-183" width="2560" height="1440" />
     </state>
@@ -102,10 +196,26 @@
       <screen x="-2560" y="-160" width="2560" height="1417" />
     </state>
     <state x="-1500" y="249" key="Github.UntrackedFilesDialog/0.23.1440.808/-2560.-160.2560.1417@-2560.-160.2560.1417" timestamp="1617343894364" />
-    <state x="470" y="183" key="NewPhpClassDialog" timestamp="1617355466243">
+    <state width="1398" height="288" key="GridCell.Tab.0.bottom" timestamp="1617689852496">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="470" y="183" key="NewPhpClassDialog/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617355466243" />
+    <state width="1398" height="288" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689852496" />
+    <state width="1398" height="288" key="GridCell.Tab.0.center" timestamp="1617689852494">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="288" key="GridCell.Tab.0.center/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689852494" />
+    <state width="1398" height="288" key="GridCell.Tab.0.left" timestamp="1617689852493">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="288" key="GridCell.Tab.0.left/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689852493" />
+    <state width="1398" height="288" key="GridCell.Tab.0.right" timestamp="1617689852495">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="288" key="GridCell.Tab.0.right/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617689852495" />
+    <state x="470" y="183" key="NewPhpClassDialog" timestamp="1617687232836">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="470" y="183" key="NewPhpClassDialog/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617687232836" />
     <state x="-1461" y="467" key="NewPhpFileDialog" timestamp="1617343662464">
       <screen x="-2560" y="-183" width="2560" height="1440" />
     </state>
@@ -114,9 +224,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617346528001" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1617345894917">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1617673095728">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617345894917" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617673095728" />
+    <state x="434" y="95" width="550" height="538" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1617687717115">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="434" y="95" width="550" height="538" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617687717115" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1617680994808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-2560.-183.2560.1440@0.0.1440.900" timestamp="1617680994808" />
   </component>
 </project>
